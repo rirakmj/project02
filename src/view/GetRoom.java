@@ -154,49 +154,49 @@ public class GetRoom extends JFrame
 		pbtn1.add(lbl1);
 		
 		// 이미지 1 추가
-		ImageIcon pic1 = new ImageIcon("./image/airbnb02_1.jpg");
+		ImageIcon pic1 = new ImageIcon("./img/standard_01.jpeg");
 	    pbtn2.add(new JLabel(pic1));
 	    this.add(pbtn2);
 	    this.pack();
 	    
 	    // 이미지 2 추가
-		ImageIcon pic2 = new ImageIcon("./image/airbnb02_2.jpg");
+		ImageIcon pic2 = new ImageIcon("./img/standard_02.jpeg");
 	    pbtn3.add(new JLabel(pic2));
 	    this.add(pbtn3);
 	    this.pack();
 	    
 	    // 이미지 3 추가
-	    ImageIcon pic3 = new ImageIcon("./image/airbnb03_1.jpg");
+	    ImageIcon pic3 = new ImageIcon("./img/premiumdeluxe_01.jpeg");
 	    pbtn4.add(new JLabel(pic3));
 	    this.add(pbtn4);
 	    this.pack();
 	    
 	    // 이미지 4 추가
-	    ImageIcon pic4 = new ImageIcon("./image/airbnb03_2.jpg");
+	    ImageIcon pic4 = new ImageIcon("./img/premiumdeluxe_02.jpeg");
 	    pbtn5.add(new JLabel(pic4));
 	    this.add(pbtn5);
 	    this.pack();
 	    
 	    // 이미지 5 추가
-	    ImageIcon pic5 = new ImageIcon("./image/airbnb04_1.jpg");
+	    ImageIcon pic5 = new ImageIcon("./img/oceanviewdeluxe_01.jpeg");
 	    pbtn6.add(new JLabel(pic5));
 	    this.add(pbtn6);
 	    this.pack();
 	    
 	    // 이미지 6 추가
-	    ImageIcon pic6 = new ImageIcon("./image/airbnb04_2.jpg");
+	    ImageIcon pic6 = new ImageIcon("./img/oceanviewdeluxe_02.jpeg");
 	    pbtn7.add(new JLabel(pic6));
 	    this.add(pbtn7);
 	    this.pack();
 	    
 	    // 이미지 7 추가
-	    ImageIcon pic7 = new ImageIcon("./image/airbnb04_3.jpg");
+	    ImageIcon pic7 = new ImageIcon("./img/oceanviewsuite_01.jpeg");
 	    pbtn8.add(new JLabel(pic7));
 	    this.add(pbtn8);
 	    this.pack();
 	    
 	    // 이미지 8 추가
-	    ImageIcon pic8 = new ImageIcon("./image/airbnb04_4.jpg");
+	    ImageIcon pic8 = new ImageIcon("./img/oceanviewsuite_02.jpeg");
 	    pbtn9.add(new JLabel(pic8));
 	    this.add(pbtn9);
 	    this.pack();
@@ -275,7 +275,7 @@ public class GetRoom extends JFrame
  		pbtn17.add(btn8);
  		
  		// 객실 이름 1 추가
-		JLabel name1 = new JLabel("스탠더드 더블");
+		JLabel name1 = new JLabel("Standard 1001");
 		name1.setHorizontalAlignment(SwingConstants.CENTER);
 		name1.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name1.setBackground(Color.WHITE);
@@ -283,7 +283,7 @@ public class GetRoom extends JFrame
 		getContentPane().add(name1);
 		
  		// 객실 이름 2 추가
-		JLabel name2 = new JLabel("이그젝티브 더블");
+		JLabel name2 = new JLabel("Standard 1002");
 		name2.setHorizontalAlignment(SwingConstants.CENTER);
 		name2.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name2.setBackground(Color.WHITE);
@@ -291,7 +291,7 @@ public class GetRoom extends JFrame
 		getContentPane().add(name2);
  		
  		// 객실 이름 3 추가
-		JLabel name3 = new JLabel("스탠더드 트윈");
+		JLabel name3 = new JLabel("PremiumDeluxe 2001");
 		name3.setHorizontalAlignment(SwingConstants.CENTER);
 		name3.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name3.setBackground(Color.WHITE);
@@ -299,7 +299,7 @@ public class GetRoom extends JFrame
 		getContentPane().add(name3);
  		
  		// 객실 이름 4 추가
-		JLabel name4 = new JLabel("이그젝티브 트윈");
+		JLabel name4 = new JLabel("PremiumDeluxe 2002");
 		name4.setHorizontalAlignment(SwingConstants.CENTER);
 		name4.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name4.setBackground(Color.WHITE);
@@ -307,7 +307,7 @@ public class GetRoom extends JFrame
 		getContentPane().add(name4);
  		
  		// 객실 이름 5 추가
-		JLabel name5 = new JLabel("디럭스 트윈");
+		JLabel name5 = new JLabel("OceanViewDeluxe 3001");
 		name5.setHorizontalAlignment(SwingConstants.CENTER);
 		name5.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name5.setBackground(Color.WHITE);
@@ -315,7 +315,7 @@ public class GetRoom extends JFrame
 		getContentPane().add(name5);
  		
  		// 객실 이름 6 추가
-		JLabel name6 = new JLabel("테라스 룸");
+		JLabel name6 = new JLabel("OceanViewDeluxe 3002");
 		name6.setHorizontalAlignment(SwingConstants.CENTER);
 		name6.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name6.setBackground(Color.WHITE);
@@ -323,7 +323,7 @@ public class GetRoom extends JFrame
 		getContentPane().add(name6);
 		
  		// 객실 이름 7 추가
-		JLabel name7 = new JLabel("테라스 스위트");
+		JLabel name7 = new JLabel("OceanViewSuite 5001");
 		name7.setHorizontalAlignment(SwingConstants.CENTER);
 		name7.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name7.setBackground(Color.WHITE);
@@ -331,7 +331,7 @@ public class GetRoom extends JFrame
 		getContentPane().add(name7);
  		
  		// 객실 이름 8 추가
-		JLabel name8 = new JLabel("이그젝티브 스위트");
+		JLabel name8 = new JLabel("OceanViewSuite 5002");
 		name8.setHorizontalAlignment(SwingConstants.CENTER);
 		name8.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		name8.setBackground(Color.WHITE);

@@ -15,11 +15,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.StringTokenizer;
 
-/**
- * Loggable PreparedStatement
- * @author  : sokum
- * @version : 2006-11-29
- */
 public class LogPreparedStatement implements java.sql.PreparedStatement {
 
  private ArrayList parameterValues;
@@ -74,6 +69,7 @@ public class LogPreparedStatement implements java.sql.PreparedStatement {
   wrappedStatement.close();
  }
 
+ 
  public boolean execute() throws java.sql.SQLException
  {
   return wrappedStatement.execute();
@@ -83,7 +79,6 @@ public class LogPreparedStatement implements java.sql.PreparedStatement {
  {
   return wrappedStatement.execute(sql);
  }
-
 
  public boolean execute(String sql, String[] strArray) throws java.sql.SQLException
  {
@@ -100,11 +95,13 @@ public class LogPreparedStatement implements java.sql.PreparedStatement {
   return wrappedStatement.execute(sql, intValue);
  }
 
+ 
  public int[] executeBatch() throws java.sql.SQLException
  {
   return wrappedStatement.executeBatch();
  }
 
+ 
  public java.sql.ResultSet executeQuery() throws java.sql.SQLException
  {
   return wrappedStatement.executeQuery();
@@ -115,6 +112,7 @@ public class LogPreparedStatement implements java.sql.PreparedStatement {
   return wrappedStatement.executeQuery(sql);
  }
 
+ 
  public int executeUpdate() throws java.sql.SQLException
  {
   return wrappedStatement.executeUpdate();
@@ -140,11 +138,13 @@ public class LogPreparedStatement implements java.sql.PreparedStatement {
    return wrappedStatement.executeUpdate(sql, intValue);
  }
 
+ 
  public java.sql.Connection getConnection() throws java.sql.SQLException
  {
   return wrappedStatement.getConnection();
  }
 
+ 
  public int getFetchDirection() throws java.sql.SQLException
  {
   return wrappedStatement.getFetchDirection();

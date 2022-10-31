@@ -58,9 +58,6 @@ public class RoomVO {
 		this.csid = csid;
 		this.email = email;
 	}
-	public RoomVO() {
-		
-	}
 	
 	// Getter and Setter
 	public String getFname() {
